@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">dosa center</div>
+    <div class="w3-center w3-padding-16"></div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="./plaindosa.jpeg"  alt="plain dosa" style="width:100%" >
+      <h2>plain dosa</h2>
+      <h3>price = 40 RS</h3>
+      <p>Plain dosa is also called as Sada dosa. The word “sada’ means plain or simple. Truly so as this humble Sada dosa is served without the potato stuffing (potato masala). So you relish the dosa with just the coconut chutney and sambar.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./masaladosa.jpeg" alt="masala dosa" style="width:100%">
+      <h2>masala dosa</h2>
+      <h3>price = 60 Rs</h3>
+      <p>Masala dosai or masale dose or masaldosa is a variation of the popular South Indian dosa, which has its origins in Tuluva Mangalorean cuisine of Karnataka.[1] It is made from rice, lentils, potato, fenugreek, and curry leaves, and served with chutneys and sambar. It is popular in South India</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./oniondosa.jpeg" alt="onion doda" style="width:100%">
+      <h2>Onion dosa</h2>
+      <h3>price = 60 Rs</h3>
+      <p>Onion Dosa is a plain dosa recipe with finely chopped onion topping over the dosa which gives the plain dosa a very yummy taste and also it can be eaten plain without any side dish or serve with chutneys.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./karamdosa.jpeg" alt="karam dosa" style="width:100%">
+      <h2>karam dosa</h2>
+      <h3>price = 60 Rs</h3>
+      <p>Andhra Style Erra Kaaram Dosa Recipe (Spicy Red Chilli Chutney Dosa Recipe) is a popular dish in Rayalaseema region in Andhra Pradesh. The word “Erra Karam" refers to the red chutney that is being smeared on to the dosa while making. It is very similar to Karnataka Style masala dosa but the only difference is that the red chutney in Andhra is more pungent because of the ample use of Garlic and onion. The dosa is also sprinkle with garlic flavored gram flour for the extra taste</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="./onionuthapam.jpeg" alt="onion uthapam" style="width:100%">
+      <h2>Onion uthapam</h2>
+      <h3>price = 60 Rs</h3>
+      <p>Andhra Style Erra Kaaram Dosa Recipe (Spicy Red Chilli Chutney Dosa Recipe) is a popular dish in Rayalaseema region in Andhra Pradesh. The word “Erra Karam" refers to the red chutney that is being smeared on to the dosa while making. It is very similar to Karnataka Style masala dosa but the only difference is that the red chutney in Andhra is more pungent because of the ample use of Garlic and onion. The dosa is also sprinkle with garlic flavored gram flour for the extra taste</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./gheekaramdosa.jpeg" alt="ghee karam dosa" style="width:100%">
+      <h2>ghee karam dosa</h2>
+      <h3>price = 80 Rs</h3>
+      <p>. Ghee Karam Dosa is made with ghee, red chilli pickle as a topping.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./buttermasaladosa.jpeg" alt="butter masala dosa" style="width:100%">
+      <h2>Butter masala dosa</h2>
+      <h3>price = 80 Rs</h3>
+      <p>With melting butter and fresh grated coconut, it is delicious to the core. As it is super simple to make at home, I began making it at home – a good variation from the regular dosa and since it has chutney powder and masala smeared all over it</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="./onionravvadosa.jpeg" alt="onion ravva dosa" style="width:100%">
+      <h2>Onion ravva dosa</h2>
+      <h3>price = 60 Rs</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <p>A Small Road-Side place which is very crowded. It is known for their Paneer Dosa. Opened from Morning 6:30 AM to Night 9:00 PM. Cuisines available are South Indian. The Average cost for two people is 150 rupees approximately only cash is allowed. Best Tiffin called Centre durga bhavani located in jadcherla. Address- nagarkurnool road,jadcherla</p>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b></b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <img src ="./WhatsApp Image 2021-02-21 at 14.00.33.jpeg" alt="image" style="width:100%"> 
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Nama sai kumar</p>
+      <p>web designer</p>
+      <p>email:namasaikumar123@gmail.com</p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>Address</h3>
+      <h4>Chowrasta Bus Stop, Sh 21, Badepally, Jadcherla, Mahabubnagar - 509301 </h4>
+      
+      
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">dosa</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">idly</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">vada</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">meals</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">biryani</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">drinks</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">noodles</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">egg rice</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">fried rice</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
